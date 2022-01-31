@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: gray;
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+}
+.menu {
+  border: 1px solid white;
+  color: white;
+  padding: 1em;
+}
+
+.main {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3em 2em;
+}
+.article {
+  background-color: lightgray;
+  height: 80vh;
+  width: 20vw;
+}
+.article-title {
+  background-color: gray;
+  height: 20%;
+}
+
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+}
+.footer-item {
+  color: white;
+  border: 1px solid white;
+  padding: 0.5em 25em 0.5em 0.5em;
+}
